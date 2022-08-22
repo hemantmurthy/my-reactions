@@ -29,7 +29,7 @@ class Counter extends React.Component {
     render() {
         return (
             <div>
-                <h1>Counter ID: {this.state.id}, Count: {this.state.count}</h1>
+                <p>Class Counter ID: {this.state.id}, Count: {this.state.count}</p>
             </div>
         );
     }
